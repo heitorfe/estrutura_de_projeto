@@ -6,3 +6,6 @@ plugins:
   - search
   - mkdocstrings:
       default_handler: python
+
+repo_name: "estrutura_de_projeto"
+repo_url: "https://github.com/heitorfe/estrutura_de_projeto"

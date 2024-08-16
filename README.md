@@ -70,3 +70,13 @@ poetry add mkdocs mkdocstrings-python pygments mkdocs-material pymdown-extension
 mkdocs new .
 poetry run mkdocs serve #— Renderiza o mkdocs no http://127.0.0.1:8000/
 ```
+
+* Mermaid faz workflow
+
+
+## 7. CI/CD
+
+
+### Pre commit 
+
+Para não subir código ruim em produção. Valida várias coisas automaticamente
