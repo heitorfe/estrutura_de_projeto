@@ -12,6 +12,11 @@ openpyxl = "^3.1.5"
 pytest = "^8.3.2"
 isort = "^5.13.2"
 blue = "^0.9.1"
+mkdocs = "^1.6.0"
+mkdocstrings-python = "^1.10.8"
+pygments = "^2.18.0"
+mkdocs-material = "^9.5.31"
+pymdown-extensions = "^10.9"
 
 
 [build-system]

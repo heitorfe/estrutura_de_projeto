@@ -62,3 +62,11 @@ python3 app/main.py
 """
 doc = "mkdocs serve"
 ```
+
+## 6. MkDocs
+
+```
+poetry add mkdocs mkdocstrings-python pygments mkdocs-material pymdown-extensions
+mkdocs new .
+poetry run mkdocs serve #— Renderiza o mkdocs no http://127.0.0.1:8000/
+```

@@ -1,0 +1,8 @@
+site_name: Estrutura de projeto
+nav:
+  - Home: index.md
+  - API: api.md
+plugins:
+  - search
+  - mkdocstrings:
+      default_handler: python
