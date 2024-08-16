@@ -27,3 +27,10 @@ Adicionar bibliotecas
 Sair do ambiente virtual
 
 `deactivate`
+
+## 3. Versionar no GitHub
+
+Criar o repositório para o projeto. Criar as branches, configurar necessidade ou não de PR. Versionar o código. 
+
+Site para encontrar o .gitignore: https://www.toptal.com/developers/gitignore
+
