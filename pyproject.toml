@@ -17,6 +17,7 @@ mkdocstrings-python = "^1.10.8"
 pygments = "^2.18.0"
 mkdocs-material = "^9.5.31"
 pymdown-extensions = "^10.9"
+pytest-mock = "^3.14.0"
 
 
 [build-system]
