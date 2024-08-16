@@ -1,7 +1,6 @@
 from pipeline.extract import extract_from_excel
-from pipeline.transform import concat_dfs
 from pipeline.load import load_excel
-
+from pipeline.transform import concat_dfs
 
 if __name__ == "__main__":
 

@@ -34,3 +34,31 @@ Criar o repositório para o projeto. Criar as branches, configurar necessidade o
 
 Site para encontrar o .gitignore: https://www.toptal.com/developers/gitignore
 
+## 4. Padrões de projeto
+
+PEP8 org.
+
+Libs:
+* black
+* blue
+* isort
+`isort .` 
+* autopep8
+
+## 5. Taskipy
+
+Ajuda a automatizar comandos CLI. Evita overhead de ter que lembrar de vários comandos.
+
+```
+[tool.taskipy.tasks]
+format = """
+isort .
+black .
+"""
+kill = "kill -9 $(lsof -t -i :8000)"
+test = "pytest -v"
+run = """
+python3 app/main.py
+"""
+doc = "mkdocs serve"
+```
